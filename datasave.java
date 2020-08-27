@@ -36,6 +36,8 @@ public class datasave extends HttpServlet
 			out.println("<h1>Welcome "+name+",</h1>");
 			out.println("<h2>Registered successfully. </h2>");
 			out.println("<body style='background-size: cover; background-repeat: no-repeat; background-image: url(https://image.freepik.com/free-photo/blurred-background-dentist-chair-office-clinic_60829-332.jpg);'>");
+			out.println("<br><br><br><br>");
+			out.println("<a href='Frontpage.html' style='font-size: 30px;'>....Back Home....</a>");
 			try {
 				Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 				conn=DriverManager.getConnection(dbstring);
