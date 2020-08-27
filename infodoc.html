@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Doctors info</title>
+<style>
+.navbar 
+{
+  overflow: hidden;
+  background-color: black;
+  text-align:center;border-radius: 12px;
+}
+.navbar a 
+{
+  float: left;
+  font-size: 16px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+  text-align:left;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: black;
+  font-family: inherit;
+  margin: 0;
+  text-align:center;
+}
+footer p{background-color: white;
+	color:black;}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  text-align:center;
+}
+footer
+{
+	height:30px;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align:center;
+	font-size: 20px; 
+	padding: 190px 0px 0px 0px;	
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align:center;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align:center;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h1{
+font-family:courier;
+text-align:center;
+color:black;
+  font-size: 45px; 
+}
+h2{
+color:black;
+  font-size: 30px; 
+}
+img {
+  float: right;
+}
+p{
+color:black;
+  font-size: 20px; 
+}
+body{
+background-color:white;
+background-image: url('https://image.freepik.com/free-photo/blurred-background-dentist-chair-office-clinic_60829-332.jpg');
+background-repeat: no-repeat;
+ background-attachment: fixed;  
+  background-size: cover;
+}
+a{color:black;
+font-family:courier;
+}
+</style>
+</head>
+<body>
+<h1><b>RENGA DENTAL</b></h1>
+<div class="navbar">
+<a href="Frontpage.html">Home</a>
+<a href="aboutus.html">About us</a>
+<div class="dropdown">
+    <button class="dropbtn">Services 
+      <i class="fa fa-caret-down"></i>
+    </button>
+     <div class="dropdown-content">
+      <a href="facilities.html">Dental Implants</a>
+      <a href="dentures.html">Dentures</a>
+      <a href="brige.html">Crowns & Bridges</a>
+      <a href="lays.html">Inlays and Onlays</a>
+      <a href="filling.html">Fillings</a>
+      </div>
+      </div>
+<div class="dropdown">
+    <button class="dropbtn"> Our Doctors
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="docinfo.html">Dr. Srinidhi Dwaraka</a>
+      <a href="infodoc.html">Dr. Varun Archarya</a>
+     </div>
+      </div>
+<a href="appnt.html"> Admissions</a>
+<a href="contact.html"> Contact Us</a>
+<a href="query.jsp">Any Queries?</a>
+</div>
+<h2>Dr. Varun Archarya</h2>
+<p><img src="data:image/jpeg;base64,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" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;">
+Dr. Varun Acharya obtained his Bachelor of Dental Surgery degree from Saveetha Dental College. He graduated at the top of his class and was selected as the Best Outgoing Student on graduation. He pursued his post graduate education in the United States of America where he completed four years of post-graduate Prosthodontic training at the New York University, College of Dentistry where he specialized in full mouth rehabilitations, dental implants, veneers, crowns, bridges, inlays, onlays and dentures. At NYU, he was a recipient of the Adisman Award for being the most outstanding graduating prosthodontic resident.
+</p>
+<p>
+ After New York, he continued his post graduate education at the University of Texas MD Anderson Cancer Center in Houston, where he completed a fellowship in Maxillofacial Prosthetics and Oncologic Dentistry. At MD Anderson, his focus was primarily on the maxillofacial rehabilitation of the cancer survivor. Besides intra-oral prosthetic devices, Dr. Varun Acharya also rehabilitates cancer survivors with silicone facial prosthetics.
+Dr. Acharya has presented numerous table clinics and research papers in conferences in India and abroad. His research and scholarly articles have also been published in peer reviewed international journals such as the Journal of Prosthetic Dentistry, The Journal of Prosthodontics and The International Journal of Prosthodontics.
+</p>
+<p>
+Dr. Acharya is currently the consultant Maxillofacial Prosthodontist and Implantologist at Acharya Dental, Chennai. He is also the consultant Maxillofacial Prosthodontist and Implantologist at Tata Medical Center, Kolkata, where his work primarily involves the maxillofacial rehabilitation of cancer survivors. Dr. Acharya completed the American Board of Prosthodontics certification exam making him the only American Board Certified Maxillofacial Prosthodontist in India.
+<br> <br>
+ <footer>
+ 
+ <p>Designed and developed by VRengan</p>
+
+ </footer>
+</body>
+</html>
